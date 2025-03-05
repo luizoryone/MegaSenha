@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador Mega-Sena</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎰 Sorteador da Mega-Sena 🎰</h1>
+        <button onclick="gerarSorteios()">🔄 Sortear Novamente</button>
+        <div id="resultado"></div>
+    </div>
+
+    <div class="explicacao">
+        <h2>🔍 Como os números são escolhidos?</h2>
+        <p>Os números são sorteados de forma inteligente, com base em 4 partições principais e 2 partições secundárias:</p>
+        <ul>
+            <li>🎯 <b>Partição 1:</b> Números entre <b>1 e 15</b></li>
+            <li>🎯 <b>Partição 2:</b> Números entre <b>16 e 30</b></li>
+            <li>🎯 <b>Partição 3:</b> Números entre <b>31 e 45</b></li>
+            <li>🎯 <b>Partição 4:</b> Números entre <b>46 e 60</b></li>
+            <li>🔄 <b>Partição Extra 1:</b> Escolha entre <b>1 e 30</b></li>
+            <li>🔄 <b>Partição Extra 2:</b> Escolha entre <b>31 e 60</b></li>
+        </ul>
+        <p>🔹 Esse modelo equilibra os números de forma estratégica, garantindo melhor distribuição entre setores.</p>
+    </div>
+
+    <footer>
+        Desenvolvido por <b>Luiz Oryone Moraes Lira</b> 💡✨
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
