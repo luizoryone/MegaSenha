@@ -34,3 +34,4 @@ function gerarSorteios() {
 
 // Sorteio inicial ao carregar a página
 gerarSorteios();
+// DevLops by Luiz Oryone
