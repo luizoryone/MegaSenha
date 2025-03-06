@@ -57,7 +57,7 @@ Essa abordagem garante um sorteio **mais balanceado**, mantendo um bom nível de
 Basta clonar o repositório e abrir o arquivo `index.html` no navegador!  
 
 
-git clone https://github.com/seu-usuario/sorteador-megasena.git
+git clone https://github.com/luizoryone/MegaSenha.git
 cd sorteador-megasena
 
 
